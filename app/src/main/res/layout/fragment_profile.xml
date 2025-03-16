@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_username"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Username"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/blue"-->
+<!--        android:paddingBottom="20dp"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="game iMMersion"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_remove_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Account"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+
+</LinearLayout>
